@@ -14,7 +14,7 @@ import json
 import time
 
 class ClassAPI(generics.GenericAPIView):
-    # Jenkins TEST2
+    # Jenkins TEST3
     def post(self, request, *args, **kwargs):
         return Response(
             {
